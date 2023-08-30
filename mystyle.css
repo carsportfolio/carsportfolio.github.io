@@ -1,3 +1,18 @@
 body {
-  background-color: linen;
+  background-color: ivory;
+}
+
+div { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.profileimg {
+  border-radius: 100%;
 }
