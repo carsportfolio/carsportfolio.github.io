@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<body>
     <header>
         <div class="container">
             <h1>CH</h1>
@@ -21,44 +22,51 @@
         </div>
     </header>
 
-<body>
-    <section id="about">
-        <div class="container2profilephoto">
-            <a href="https://www.linkedin.com/in/carsonholub/" target="_blank" rel="noopener noreferrer" style="z-index: 3;">
-                <img class="profileimg expand" rel="preload" src="https://raw.githubusercontent.com/carsportfolio/carsportfolio.github.io/main/images/me.jpg" alt="testimg"  width="256" height="256">
-            </a>
-        </div>
-        <div class="container aboutbody">
-            <div class="aborder" id="scrollableBox"> 
-                <h2 id="aborder-header"> Hi, I'm Carson! </h2>
-                <div class="scrolling-content">
-                    <p class="body paragraph"> &nbsp; &nbsp; I am a Designer, Artist, & Engineer with a Bachelor of Science in Creative Technology and Design from the Engineering Department at the University of Colorado Boulder. My academic experience fostered a creative and technical understanding of emerging technologies, along with a strong drive to innovate. My studies emphasized the intersection of creativity and technology, with a particular focus on game design and development using Unity and C#/C++. My long-term goal is to collaborate on video game design teams as a designer or developer. I currently work as a Graphic Design and Social Media Director, managing daily creative production such as social media content, email campaigns, and website updates using foundational HTML/CSS. In addition to these ongoing responsibilities, I also solely design and produce a triannual/quarterly printed auction catalog, an intensive week-long project that requires detailed editorial layout and print production.
-                    <br>
-                    <br>
-                    <p class="body paragraph"> &nbsp; &nbsp; Over the years, I have developed a wide range of creative skills across both physical and digital mediums through my education in the ATLAS Department and Art Department, professional experience, and independent exploration. I have refined my abilities in multiple areas of design and development, including 3D modeling and printing, web development, game development (using Unity and Swift), 2D and 3D art, print and editorial design. I am proficient in a variety of tools and platforms such as Adobe, Microsoft, and Google products, as well as several programming languages, most notably C++, C#, and foundational HTML/CSS. </p> 
-                    <br>
-                    <br>
-                    <p class="body paragraph"> &nbsp; &nbsp; My portfolio demonstrates my ability to blend technical skills with artistic vision. My diverse skill set allows me to adapt in various professional environments, making me a flexible creative asset for any project. I'd love to discuss how my background and passions could align with your needs. Contact me through LinkedIn or email. </p>
-                    </p>
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-profile">
+                <a href="https://www.linkedin.com/in/carsonholub/" target="_blank" rel="noopener noreferrer">
+                    <img class="about-profile-img" src="images/me.jpg" alt="Carson Holub">
+                </a>
+                <h1 class="about-name">Hi, I'm Carson!</h1>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text-wrapper">
+                    <div class="about-text active" data-section="1">
+                        <p>&nbsp;&nbsp;I am a Designer, Artist, & Engineer with a Bachelor of Science in Creative Technology and Design from the Engineering Department at the University of Colorado Boulder. My academic experience fostered a creative and technical understanding of emerging technologies, along with a strong drive to innovate. My studies emphasized the intersection of creativity and technology, with a particular focus on game design and development using Unity and C#/C++. My long-term goal is to collaborate on video game design teams as a designer or developer. I currently work as a Graphic Design and Social Media Director, managing daily creative production such as social media content, email campaigns, and website updates using foundational HTML/CSS. In addition to these ongoing responsibilities, I also solely design and produce a triannual/quarterly printed auction catalog, an intensive week-long project that requires detailed editorial layout and print production.</p>
+                    </div>
+                    
+                    <div class="about-text" data-section="2">
+                        <p>&nbsp;&nbsp;Over the years, I have developed a wide range of creative skills across both physical and digital mediums through my education in the ATLAS Department and Art Department, professional experience, and independent exploration. I have refined my abilities in multiple areas of design and development, including 3D modeling and printing, web development, game development (using Unity and Swift), 2D and 3D art, print and editorial design. I am proficient in a variety of tools and platforms such as Adobe, Microsoft, and Google products, as well as several programming languages, most notably C++, C#, and foundational HTML/CSS.</p>
+                    </div>
+                    
+                    <div class="about-text" data-section="3">
+                        <div>
+                            <p>&nbsp;&nbsp;My portfolio demonstrates my ability to blend technical skills with artistic vision. My diverse skill set allows me to adapt in various professional environments, making me a flexible creative asset for any project. I'd love to discuss how my background and passions could align with your needs. Contact me through LinkedIn or email.</p>
+                            <a href="https://www.linkedin.com/in/carsonholub/" target="_blank" rel="noopener noreferrer" class="linkedin-button">
+                                Connect on LinkedIn
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="scroll-indicator">
-                    <div class="dot active"></div>
-                    <div class="dot"></div>
-                    <div class="dot"></div>
-                </div> 
+                
+                <div class="about-nav">
+                    <button class="about-nav-dot active" data-section="1"></button>
+                    <button class="about-nav-dot" data-section="2"></button>
+                    <button class="about-nav-dot" data-section="3"></button>
+                </div>
             </div>
         </div>
     </section>
 
-<footer>
-    <div class="container" id="footer">
-      <p>&copy; 2024 Carson Holub. </p>
-      <p>All rights reserved.</p>
-    </div>
-  </footer>
-   <script src="fade-in-about.js"></script>
-   <script src="fade-out-about.js"></script>
-   <script src="about-paragraph-slide.js"></script>
-   <script src="scroll-indication.js"></script>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Carson Holub.</p>
+            <p>All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="about-new.js"></script>
 </body>
 </html>
