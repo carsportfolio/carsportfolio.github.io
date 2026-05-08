@@ -4,17 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CH: About</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="mystyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <h1>CH</h1>
             <nav>
                 <ul>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="index.html#projects" id="projectlinkfadeout">Projects</a></li>
                 </ul>
@@ -43,7 +53,7 @@
                     
                     <div class="about-text" data-section="3">
                         <div>
-                            <p>&nbsp;&nbsp;My portfolio demonstrates my ability to blend technical skills with artistic vision. My diverse skill set allows me to adapt in various professional environments, making me a flexible creative asset for any project. I'd love to discuss how my background and passions could align with your needs. Contact me through LinkedIn or email.</p>
+                            <p>&nbsp;&nbsp;My portfolio demonstrates my ability to blend technical skills with artistic vision. My diverse skill set allows me to adapt in various professional environments, making me a flexible creative asset for any project. I'd love to discuss how my background and passions could align with your needs. Contact me through LinkedIn.</p>
                             <a href="https://www.linkedin.com/in/carsonholub/" target="_blank" rel="noopener noreferrer" class="linkedin-button">
                                 Connect on LinkedIn
                             </a>
@@ -68,5 +78,6 @@
     </footer>
 
     <script src="about-new.js"></script>
+    <script src="page-loader.js"></script>
 </body>
 </html>

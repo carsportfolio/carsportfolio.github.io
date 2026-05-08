@@ -3,18 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CH: Physical Signs</title>
+    <title>CH: Physical Signs</title>`n    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="mystyle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <div class="loader"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+    </div>
+
+        <header>
         <div class="container">
             <h1>CH</h1>
             <nav>
                 <ul>
+                    <li><a href="home.html">Home</a></li>
                     <li><a href="about.html#about" id="projecttoaboutfadeout">About</a></li>
                     <li><a href="index.html#projects" id="projectdetailtoprojectfadeout">Projects</a></li>
                 </ul>
@@ -37,7 +47,7 @@
                 </p>
                 <h2>Context: </h2>
                 <p>
-                    Working for Mile High Card Company as their Graphic Design & Social Media Director.
+                    Made for Mile High Card Company as their Graphic Design & Social Media Director.
                 </p>
                 <h2>Tools:</h2>
                 <p>
@@ -122,5 +132,6 @@
 <script src="fade-out-project-to-about.js"></script>
 <script src="enlarge-project-img.js"></script>
 <script src="carousel.js"></script>
+<script src="page-loader.js"></script>
 </body>
 </html>
